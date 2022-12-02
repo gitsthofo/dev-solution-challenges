@@ -1,0 +1,111 @@
+
+:root{
+
+  --buttonColor-: #040209b8;
+  --author-: #11132fb7;
+}
+
+*,::before,
+::after{
+  box-sizing: border-box;
+}
+
+body{
+
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+  div.main-wraper{
+    max-width: 100%;
+    display: flex;
+   flex-direction: column;
+   margin: 0;
+   }
+
+    section.column > img{
+
+      margin: 20% auto;
+      width: 330px;
+   }
+
+   section.column > h2{
+    margin: 0;
+    text-align: center;
+ }
+ section.column > p {
+
+  text-align: center;
+
+
+ }
+
+
+
+
+
+  
+}
+
+.text{
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+font-family: 'inconsolata';
+margin-left: 55px;
+
+}
+
+.main-wraper{
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3.2rem;
+
+
+}
+
+.column{
+  width: 50%;
+  padding: 10px;
+  
+
+}
+.column > img{
+
+  width: 100%;
+  margin: auto;
+
+}
+
+.column > h2{
+  font-family: 'space mono';
+  font-size: 64px;
+  line-height: 94px;
+  font-weight: 700;
+
+
+}
+.column > p{
+font-family: 'space mono';
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+  padding:  16px;
+  letter-spacing: -3.5%;
+
+
+}
+
+.btn-home{
+
+  display: block;
+  width: 50%;
+  padding: 26px 16px;
+  border: none;
+  outline: none;
+  margin: 3.5rem 3.5rem;
+  font-family: 'space mono';
+  font-weight: 700;
+}
